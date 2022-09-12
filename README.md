@@ -17,9 +17,9 @@
 This is an API for a social network web application where users can share their thoughts, react to friends' thoughts, and create a friend list. 
 
 ## Application Demo
-The following video link shows the functionality of the Team Profile Generator:
+The following video link shows the functionality of the Social Network API:
 
-[Team Profile Generator application demo](./demo-video/Team_Profile_Generator_Demo.mp4)
+[Social Network API application demo](https://drive.google.com/file/d/1xOJM7ZHnTr5dT8pFLdCo2KHxb90IMQDc/view)
 
 ## Installation
 Run the following at the command line
@@ -27,6 +27,8 @@ Run the following at the command line
     - npm install express
     - npm install mongoose
     - npm install moment is required
+
+Run 'npm start' to start the server
 
 ## Usage
 This is an API for a social network web application where users can share their thoughts, react to friends' thoughts, and create a friend list. It uses Express.js for routing, a MongoDB database, the Mongoose ODM, and Moment.js to format timestamps. The seed data is created using Insomnia
