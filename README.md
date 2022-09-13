@@ -44,33 +44,33 @@ On Insomnia, the following API routes have been created and used to add, update,
 
 📁 USER
 
-Create a new user: POST /api/users
+- Create a new user: POST /api/users
 
-Get all users: GET /api/users
+- Get all users: GET /api/users
 
-Get a single user by its id: GET /api/users/:userId
+- Get a single user by its id: GET /api/users/:userId
 
-Update a user by its id: PUT /api/users/:userId
+- Update a user by its id: PUT /api/users/:userId
 
-Delete a user by its id: DELETE /api/user/:userId
+- Delete a user by its id: DELETE /api/user/:userId
 
 📁 FRIEND
 
-Add a new friend to a user's friend list: POST /api/users/:userid/friends/:friendId
-Delete a friend from a user's friend list: DELETE /api/users/:userid/friends/:friendId
+- Add a new friend to a user's friend list: POST /api/users/:userid/friends/:friendId
+- Delete a friend from a user's friend list: DELETE /api/users/:userid/friends/:friendId
 
 📁 THOUGHT
 
-Create a new thought: POST /api/thoughts/
-Get all thoughts: GET /api/thoughts/
-Get a single thought by its id: GET /api/thoughts/:thoughtId
-Update a thought by its id: PUT /api/thoughts/:thoughtId
-Delete a thought by its id: DELETE /api/thoughts/:thoughtId
+- Create a new thought: POST /api/thoughts/
+- Get all thoughts: GET /api/thoughts/
+- Get a single thought by its id: GET /api/thoughts/:thoughtId
+- Update a thought by its id: PUT /api/thoughts/:thoughtId
+- Delete a thought by its id: DELETE /api/thoughts/:thoughtId
 
 📁 REACTION
 
-Create a reaction: POST /api/thoughts/:thoughtId/reactions
-Delete a reaction by the reactionId: DEL /api/thoughts/:thoughtId/reactions/:reactionId
+- Create a reaction: POST /api/thoughts/:thoughtId/reactions
+- Delete a reaction by the reactionId: DEL /api/thoughts/:thoughtId/reactions/:reactionId
 
 ## Github
 Visit my github profile here: [Maharjn](https://github.com/Maharjn)
